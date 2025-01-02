@@ -2,10 +2,20 @@
 icon: globe-pointer
 ---
 
-# Publish your docs
+# 👾 游戏下载
 
-Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Once published, your site will be accessible online only to your selected audience.
+1. 有夸克盘+迅雷盘+UC盘，夸克资源容易被和谐，若主链接或者某个游戏资源失效了，可看夸克备份/迅雷/UC
+2. 通用解压码:114514、xwzzx、10127、qingjiu卿久，xc8game、10086、0606、123、XDBJ、0721、qyu123.com ,京墨,LOVE521、xxld 、xdbj、BiuBiuBiu、btys、zukol123、666666、风花雪月、zhuoyugam
+3. 分享各类游戏，影视，软件，等资源（资源整合来自不易，还请大家珍惜）
 
-You can publish your site and find related settings from your docs site's homepage.
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/publish-hero.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+若网
+{% endhint %}
+
+
+
+{% embed url="https://pan.xunlei.com/s/VOF_ArBPsh3YXLXQDbboKX1GA1?pwd=rb54" %}
+
+{% embed url="https://pan.quark.cn/s/319ba42bde78#/list/share" fullWidth="false" %}
