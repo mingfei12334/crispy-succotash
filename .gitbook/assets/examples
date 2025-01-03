@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   	<title> 实例归档 | 菜鸟工具</title>
+     	<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='stylesheet' id='wpProQuiz_front_style-css' href='https://www.jyshare.com/wp-content/plugins/Wp-Pro-Quiz/css/wpProQuiz_front.min.css?ver=0.37' type='text/css' media='all' />
+<link rel="canonical" href="https://www.jyshare.com/examples/" />
+<meta name="keywords" content="实例归档">
+<meta name="description" content="菜鸟工具-实例归档..">
+  <link rel="shortcut icon" href="https://static.jyshare.com/images/c-runoob-logo.ico">  
+			
+    	
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="https://www.jyshare.com/wp-content/themes/toolrunoob2/bootstrap.min.css">
+
+   <!-- Custom Fonts -->
+   <link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]> 
+        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/html5shiv/r29/html5.min.js"></script>
+        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- PHP 代码 -->
+    <link rel="stylesheet" href="https://www.jyshare.com/wp-content/themes/toolrunoob2/style.css?version=1.401">
+
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/clipboard.js/2.0.4/clipboard.min.js"></script>
+</head>
+
+<body>
+<style>
+
+.navbar-nav .nav-item {
+  white-space: nowrap; /* 防止li内部换行 */
+}
+
+.navbar-nav .nav-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* 防止链接文字换行 */
+}
+.navbar,.page-footer {
+
+background: rgb(75, 81, 104);
+border-width: 0px 0px 3px;
+border-bottom: 3px solid transparent;
+border-image: linear-gradient(90deg, rgb(141, 66, 108) 16%, rgb(81, 153, 211) 16%, rgb(81, 153, 211) 32%, rgb(34, 201, 148) 32%, rgb(34, 201, 148) 48%, rgb(240, 198, 18), 48%, rgb(240, 198, 18), 64%, rgb(255, 171, 77) 64%, rgb(255, 171, 77) 82%, rgb(210, 70, 93) 82%) 1 / 1 / 0 stretch;
+}
+.page-footer {
+  border-top: 3px solid transparent;
+  border-width: 3px 0px 0px;
+}
+</style>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark "> 
+  <a class="navbar-brand mr-auto mr-lg-2" href="/">
+  <img src="https://static.jyshare.com/images/JYSHARE-COM.png" style="height: 36px;"  class="d-inline-block align-top" alt="菜鸟工具">
+     </a>
+  <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/front-end/61">WEB在线工具</a>
+      </li>
+    
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank nav-item-runoob" class="nav-link" href="https://www.jyshare.com/more/shapefly-diagram/">在线画图</a> 
+      </li>
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/ai/">AI集合</a>
+      </li>
+   
+     <!-- 
+      <li class="nav-item">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/email/">邮箱导航</a>
+      </li>
+       <li class="nav-item">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/currencyconverter/">汇率换算器</a>
+      </li>
+      -->
+    
+     
+      
+     
+
+     
+      <li class="nav-item">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/time/">世界时间</a>
+      </li>
+     
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/more/svgeditor/">SVG在线工具</a>
+      </li>
+     
+	  <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.runoob.com/">菜鸟教程</a>
+      </li>
+                    <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" data-time=882497 href="https://codegeex.cn/zh-CN?channel_utm_campaign=media037&utm_campaign=media037
+">CodeGeeX编程助手</a>
+      </li>
+      
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="dropdown01" data-toggle="dropdown" aria-expanded="false">更多频道</a>
+        <style>
+        .multi-column-dropdown {
+            column-count: 2; /* 设置两列 */
+            column-gap: 1rem; /* 列之间的间隔 */
+        }
+        </style> 
+        <div class="dropdown-menu multi-column-dropdown shadow bg-light">
+    
+        <div class="dropdown-column">
+        <a href="https://www.jyshare.com/email/" class="dropdown-item" target="_blank"><i class="fas fa-envelope"></i> 邮箱导航</a>
+		     <a href="https://www.jyshare.com/web-developer/" class="dropdown-item" target="_blank"><i class="fab fa-html5"></i> 前端开发</a>
+         <a href="https://www.jyshare.com/media-om/" class="dropdown-item" target="_blank"><i class="fas fa-photo-video"></i> 媒体运营</a>
+         <a href="https://www.jyshare.com/tech-sites/" class="dropdown-item" target="_blank"><i class="fas fa-microchip"></i> 科技网站</a>
+         <a href="https://www.jyshare.com/cloud-server/" class="dropdown-item" target="_blank"><i class="fas fa-server"></i> 云服务器</a>
+         <a href="https://www.jyshare.com/office/" class="dropdown-item" target="_blank"><i class="fab fa-microsoft"></i> 办公软件</a>
+         <a href="https://www.jyshare.com/scholar/" class="dropdown-item" target="_blank"><i class="fas fa-search-plus"></i> 学术搜索</a>
+    </div>
+    <div class="dropdown-column">
+         <a href="https://www.jyshare.com/ai/" class="dropdown-item" target="_blank"><i class="fas fa-robot"></i> AI 应用</a>
+         <a href="https://www.jyshare.com/coupon/" class="dropdown-item" target="_blank"><i class="fas fa-shopping-cart"></i> 购物平台</a>
+         <a href="https://www.jyshare.com/quiz/" class="dropdown-item" target="_blank"><i class="fas fa-feather"></i> 在线测验</a>
+         <a href="https://www.jyshare.com/finance/" class="dropdown-item" target="_blank"><i class="fas fa-piggy-bank"></i> 财经频道</a>
+         <a href="https://www.jyshare.com/banks/" class="dropdown-item" target="_blank"><i class="fas fa-landmark"></i> 银行机构</a>
+         <a href="https://www.jyshare.com/danwei/" class="dropdown-item" target="_blank"><i class="fas fa-weight"></i> 单位换算</a>
+         <a href="https://www.jyshare.com/sports/" class="dropdown-item" target="_blank"><i class="fas fa-basketball-ball"></i> 体育频道</a>
+    </div>
+        </div>
+      </li>
+  
+    </ul>
+    <style>
+   
+</style>
+    <form class="form-inline my-2 my-lg-0" action="/index.php" method="get">
+	      <div class="input-group has-search">
+     
+      <input class="form-control mr-sm-2" name="s" value="" type="text" placeholder="搜索..." aria-label="Search">
+     
+    </div>
+<!--
+      <button class="btn btn-warning my-2 my-sm-0" type="submit" >搜索</button>  -->
+    </form>
+      </div>
+</nav>
+<script>
+var is_home = false;
+</script>
+<div class="runoob-page-content">
+<div class="row">
+<div class="col-lg-12">
+    <h2 class="page-header"><i class="fa fa-list"></i> 最新文章列表
+      
+    </h2>
+   
+</div>
+</div>
+
+<style>
+.runoob-glist a {
+   /* color: #64854c;*/
+	font-weight: bold;
+}
+</style>
+<style type="text/css">
+.panel-cus>.panel-heading {
+    background-color: #fff;
+}
+
+.runoob-page-content {
+	margin: 0 20px;
+}
+</style>
+
+<div class="row" >
+<div class="col-lg-12">
+    <table class="table table-striped table-bordered">
+    
+        <tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9359/"><i class="fas fa-file-code"></i> 有意思的进度条 &#8211; 死神来了 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9105/"><i class="fas fa-file-code"></i> CSS 设置卡片(card)样式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9101/"><i class="fas fa-file-code"></i> HTML/CSS 下雪效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9100/"><i class="fas fa-file-code"></i> HTML/CSS/JS 时间轴 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9099/"><i class="fas fa-file-code"></i> HTML/CSS/JS 下雪效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9098/"><i class="fas fa-file-code"></i> CSS loading 效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9097/"><i class="fas fa-file-code"></i> HTML/CSS 响应式表格 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9096/"><i class="fas fa-file-code"></i> HTML/CSS 表格 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9095/"><i class="fas fa-file-code"></i> HTML/CSS/JS 烟花效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9093/"><i class="fas fa-file-code"></i> HTML/CSS/JS 漂亮的时钟 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9091/"><i class="fas fa-file-code"></i> JavaScript 时间倒计时 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9074/"><i class="fas fa-file-code"></i> jQuery 通过窗口宽度判断是否移动端访问 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9075/"><i class="fas fa-file-code"></i> jQuery 检测是否移动端访问 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/9040/"><i class="fas fa-file-code"></i> HTML 表单实例 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8505/"><i class="fas fa-file-code"></i> HTML 实现导航下拉菜单 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8475/"><i class="fas fa-file-code"></i> HTML/CSS/JS 计算器代码 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8379/"><i class="fas fa-file-code"></i> bootstrap4 优惠券模版 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8327/"><i class="fas fa-file-code"></i> jQuery 滚动条滚动后固定 DIV 元素 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8126/"><i class="fas fa-file-code"></i> JS 移除数组中的指定元素 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8125/"><i class="fas fa-file-code"></i> jQuery 判断显示隐藏 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8087/"><i class="fas fa-file-code"></i> CSS 修改 placeholder 颜色 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/8088/"><i class="fas fa-file-code"></i> textarea 标签禁止拉伸 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7686/"><i class="fas fa-file-code"></i> JS 获取 input 输入框内容 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7685/"><i class="fas fa-file-code"></i> JS 复制文本 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7682/"><i class="fas fa-file-code"></i> JS 获取当前页面的 URL、域名、相对路径 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7680/"><i class="fas fa-file-code"></i> JS document.write 使用实例 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7679/"><i class="fas fa-file-code"></i> JS 计时器 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7676/"><i class="fas fa-file-code"></i> JS 判断变量是否为 undefined <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7675/"><i class="fas fa-file-code"></i> JS 判断变量是否为空 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7674/"><i class="fas fa-file-code"></i> JS 判断字符串是否为空 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7673/"><i class="fas fa-file-code"></i> JS 判断变量是否为true <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7672/"><i class="fas fa-file-code"></i> JS 获取当前的日期和时间 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7655/"><i class="fas fa-file-code"></i> JS 判断对象是否为空对象 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7626/"><i class="fas fa-file-code"></i> CSS a 标签标签按钮样式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7624/"><i class="fas fa-file-code"></i> CSS 水平居中 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7623/"><i class="fas fa-file-code"></i> JS 正则表达式判断邮箱地址 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7622/"><i class="fas fa-file-code"></i> JavaScript 创建唯一ID <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7620/"><i class="fas fa-file-code"></i> jQuery 判断元素是否隐藏 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7619/"><i class="fas fa-file-code"></i> JS 删除数组中的多个元素 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7618/"><i class="fas fa-file-code"></i> JS 删除数组中的某个值 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7617/"><i class="fas fa-file-code"></i> JS 删除数组中某一条数据 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7616/"><i class="fas fa-file-code"></i> JS 日期格式转换为时间戳 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7615/"><i class="fas fa-file-code"></i> JS 时间戳转换日期格式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7105/"><i class="fas fa-file-code"></i> 中文正则表达式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7104/"><i class="fas fa-file-code"></i> 车牌号正则正则表达式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7103/"><i class="fas fa-file-code"></i> 微信号正则表达式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7102/"><i class="fas fa-file-code"></i> QQ 号码正则表达式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7101/"><i class="fas fa-file-code"></i> 十六进制颜色正则表达式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7100/"><i class="fas fa-file-code"></i> 密码强度正则表达式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/7099/"><i class="fas fa-file-code"></i> 用户名正则表达式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6825/"><i class="fas fa-file-code"></i> Base64 在 CSS 中的使用 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6824/"><i class="fas fa-file-code"></i> HTML img 使用 base64 编码图片 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6816/"><i class="fas fa-file-code"></i> JavaScript 不断更新的时刻文字的简易实现方式 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6742/"><i class="fas fa-file-code"></i> BootStrap 搜索框 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6712/"><i class="fas fa-file-code"></i> JS 生成区间范围的随机数 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6260/"><i class="fas fa-file-code"></i> JS/CSS 实现书签功能 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6234/"><i class="fas fa-file-code"></i> JS 删除数组中某个元素 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6231/"><i class="fas fa-file-code"></i> Split.js 四个可移动方格 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6229/"><i class="fas fa-file-code"></i> JavaScript/CSS 下拉菜单搜索功能 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6228/"><i class="fas fa-file-code"></i> JavaScript/CSS 表格搜索功能 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6227/"><i class="fas fa-file-code"></i> JavaScript/CSS 列表搜索功能 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6190/"><i class="fas fa-file-code"></i> JavaScript 搜索框查询匹配 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6187/"><i class="fas fa-file-code"></i> CSS jQuery 固定搜索框 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6186/"><i class="fas fa-file-code"></i> CSS 动画搜索框 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6185/"><i class="fas fa-file-code"></i> CSS 点击按钮后显示搜索框 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/6184/"><i class="fas fa-file-code"></i> CSS 可自动伸缩的搜索框 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5674/"><i class="fas fa-file-code"></i> ECharts 进度条 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5667/"><i class="fas fa-file-code"></i> CSS3 过渡实例 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5666/"><i class="fas fa-file-code"></i> JavaScript 爆炸效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5664/"><i class="fas fa-file-code"></i> CSS 固定左侧栏菜单 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5663/"><i class="fas fa-file-code"></i> CSS 设置图片显示在统一水平线上 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5661/"><i class="fas fa-file-code"></i> 我爱你一生一世 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5660/"><i class="fas fa-file-code"></i> JS 获取数组中的最大值 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5659/"><i class="fas fa-file-code"></i> jQuery callback 函数名后不加括号 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5658/"><i class="fas fa-file-code"></i> CSS 选择器优先级 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5657/"><i class="fas fa-file-code"></i> 表白 – 拒绝按钮点不到 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5656/"><i class="fas fa-file-code"></i> 表白 &#8211; 拒绝按钮点不到 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5655/"><i class="fas fa-file-code"></i> I Love You 效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5654/"><i class="fas fa-file-code"></i> 默认标准盒模型，添加边框、填充后的效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5653/"><i class="fas fa-file-code"></i> vue.js 双向绑定和字符串反转一起使用 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5646/"><i class="fas fa-file-code"></i> CSS “黑幕”样式，鼠标移上去显示 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5645/"><i class="fas fa-file-code"></i> CSS 太极旋转图 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5643/"><i class="fas fa-file-code"></i> animation steps() 函数 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5642/"><i class="fas fa-file-code"></i> JavaScript 实现落入雨滴的效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5641/"><i class="fas fa-file-code"></i> JavaScript 闭包实例 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5640/"><i class="fas fa-file-code"></i> Vue 简单的省市联动 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5639/"><i class="fas fa-file-code"></i> Vue 样式操作 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5638/"><i class="fas fa-file-code"></i> Vue.js 图书购物清单 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5637/"><i class="fas fa-file-code"></i> JavaScript 实现下载进度条 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5635/"><i class="fas fa-file-code"></i> JavaScript 闭包使用实例 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5634/"><i class="fas fa-file-code"></i> jQuery not 和 eq 可以实现反选的效果 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5633/"><i class="fas fa-file-code"></i> Vue 表达式多个属性参数的使用 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5632/"><i class="fas fa-file-code"></i> CSS 文字渐变 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5631/"><i class="fas fa-file-code"></i> JavaScript sort 降序排序 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5630/"><i class="fas fa-file-code"></i> CSS 悬挂缩进 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5629/"><i class="fas fa-file-code"></i> Vue computed vs method <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5628/"><i class="fas fa-file-code"></i> JavaScript 邮箱验证 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5627/"><i class="fas fa-file-code"></i> 闪动广告牌案例 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr><tr>     
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5624/"><i class="fas fa-file-code"></i> Vue 动态调节 <i class="fa fa-external-link-alt"></i></a>
+</td>
+             
+               <td>
+                    <a target="_blank" href="https://www.jyshare.com/codedemo/5619/"><i class="fas fa-file-code"></i> vue-resource jsonp 跨域请求 <i class="fa fa-external-link-alt"></i></a>
+</td>
+        </tr>        <!-- /.panel -->
+        
+    </table>
+    <!-- /.panel-group -->
+</div>
+<!-- /.col-lg-12 -->
+</div>
+
+        <!-- Pagination -->
+        	        <div class="row text-center mt-2"> 
+	            <div class="col-lg-12">
+				<nav aria-label="Page navigation example">
+	                <ul class="pagination">
+	                <li  class='page-item disabled'> <a class="page-link" href="#" tabindex="-1">1</a></li> <li class="page-item"><a class="page-link" href='https://www.jyshare.com/examples/page/2/' title='第 2 页'>2</a></li> <li class="page-item"><a class="page-link" href='https://www.jyshare.com/examples/page/3/' title='第 3 页'>3</a></li> <li class="page-item"><a class="page-link" href="#"> ... </a></li><li class="page-item"><a class="page-link"  href="https://www.jyshare.com/examples/page/2/" >下一页</a></li><li class="page-item" disabled><span class="page-link">共 15 页</span></li>	                   
+	                </ul>
+			    </na>
+	            </div>
+	        </div>
+	        </div>
+        <!-- /.row -->
+
+<!-- Footer -->
+<footer class="page-footer mt-4 pt-4"> 
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Copyright &copy; 
+    <a href="https://www.jyshare.com/"> JYSHARE.COM</a> 2025 备案号：<a target="_blank" rel="nofollow" href="https://beian.miit.gov.cn/">闽ICP备12019840号-4</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+
+
+
+
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/4.6.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script>
+
+
+$(function() {
+  // 当点击搜索图标时
+  $(".search-icon").click(function() {
+    $(this).parent().siblings().toggle();
+  });
+
+  // 监听搜索框的输入事件
+  $('.search-input').on('input', function() {
+      const query = $(this).val().toLowerCase();
+      $(this).parent().parent().parent().siblings().find('a').each(function() {
+          const linkText = $(this).text().toLowerCase();
+          if (linkText.includes(query)) {
+              $(this).parent().show();
+          } else {
+            $(this).parent().hide();
+          }
+      });
+  });
+	//代码高亮
+	$('pre').each(function() {
+		if(!$(this).hasClass("prettyprint")) {
+			$(this).addClass("prettyprint");
+		}
+	});
+  if ($('[data-toggle="tooltip"]').length > 0) {
+    $('[data-toggle="tooltip"]').tooltip();
+  }
+
+  if(is_home || $('#goto').length > 0) {
+    $(window).scroll(function () {
+      var _stop = $(window).scrollTop();
+      if(_stop>=100) {
+        $("#go-top").fadeIn();
+        
+      }else {
+        $("#go-top").fadeOut();
+      }
+    });
+    _current_hash = window.location.hash;
+   // console.log(_current_hash);
+    if(_current_hash) {
+     
+        var $targetEle = $(_current_hash);
+        var sTop =  $targetEle.offset().top;
+        $('html, body').stop().animate({
+            'scrollTop':sTop-100
+        }, 300, 'swing', function (e) {
+         // window.location.hash = targetEle;
+        }); 
+        console.log(sTop);
+        return false;
+     
+    }
+    $("#go-top").click(function(event){	
+     $('html,body').animate({scrollTop:0}, 100);
+     return false;
+    });
+    // 导航
+    var _html_nav='<a class="nav-link active" href="javascript:void();"><i class="fa fa-compass" aria-hidden="true"></i> 快速导航</a>';
+    var _html_right_nav = '<button class="dropdown-item" href="#"><i class="fa fa-th-list" aria-hidden="true"></i> 快速导航</button><div class="dropdown-divider"></div>';
+    var _html_left_nav = '<dt><span class="show-list"></span></dt>';
+    for (var i=0;i<data_hrefs.length;i++)
+    { 
+        id="runoob-goto-" + data_hrefs[i];
+        _html_nav += '<a class="nav-link" href="#'+id+'">'+$("#"+id).data("text")+'</a>';
+        _html_right_nav +='<button class="dropdown-item" onclick="location.href=\'#'+id+'\'" type="button"><i class="fa fa-caret-right" aria-hidden="true"></i> '+$("#"+id).data("text")+'</button>' ;
+        _html_left_nav +='<dd><a href="#'+id+'" class="auto-scroll" data-offset="98" data-speed="500">'+$("#"+id).data("text")+'</a></dd>';
+    }
+    $(".nav-underline").html(_html_nav);
+    $("#right_nav_list").html(_html_right_nav);
+    $("#goto").html(_html_left_nav);
+    if($(".nav-scroller").is(":visible")){
+      $('a[href^="#"]').on('click', function (e) {
+       
+          e.preventDefault();
+          $(this).addClass('nav-underline-active');
+          $(this).siblings().removeClass('nav-underline-active');
+          var targetEle = this.hash;
+          var $targetEle = $(targetEle);
+          var sTop =  $targetEle.offset().top;
+          $('html, body').stop().animate({
+              'scrollTop':sTop-100
+          }, 300, 'swing', function () {
+          //   window.location.hash = targetEle;
+          });
+      });
+    } else {
+      $('a[href^="#"]').on('click', function (e) {
+          e.preventDefault();
+          
+          var targetEle = this.hash;
+          var $targetEle = $(targetEle);
+          var sTop =  $targetEle.offset().top;
+          //console.log(sTop);
+          $('html, body').stop().animate({
+              'scrollTop':sTop-98   
+          }, 300, 'swing', function () {
+          //   window.location.hash = targetEle;
+          });
+      });
+    }
+  } else { 
+    $("#top").hide();
+  }
+  
+
+  // search
+  if($('#search-name').length){
+      var _href=  $("#search-name .nav-underline-active").attr("href");
+  }
+ 
+  $('#search-name li a').each(function(){
+    $(this).on("click", function(e){
+      e.preventDefault();
+      _href = $(this).attr('href');
+      $(this).removeClass("text-muted").addClass("nav-underline-active");
+      $(this).parent().siblings().find("a").addClass("text-muted").removeClass("nav-underline-active");
+    //  console.log(_href);
+    });
+    
+  })
+
+  $('#search-button').on("click", function(e){
+   // console.log(_href);
+    _hmt.push(['_trackEvent', 'Search', 'Click', '搜索工具']);
+    keyword = $(".search").find("input:text").val();
+    window.open(_href + keyword, '_blank');
+  });
+  $(".search").find("input:text").keypress(function (e) {
+    var key = e.which;
+    if(key == 13)  // the enter key code
+    {
+      window.open(_href + $(this).val(), '_blank'); 
+      return false;  
+    }
+  });  
+});
+
+(function($){ 
+  var p=$('.runoob-item-index'); 
+  if(p.length<1) return;
+  var arr=[];
+  function part_offset_top() {
+    p.each(function () {
+      var of=$(this).offset();
+      arr.push(Math.floor(of.top));
+    });
+  }
+  function goto_current(index) {
+    var a=$('#goto dd');
+    var b=$('#goto dt');
+    if(a.length<1) return;
+    var h=a.outerHeight();
+    if (!a.eq(index).hasClass('current')) {
+      a.removeClass('current');
+      a.eq(index).addClass('current');
+     // console.log(index)
+      b.animate({
+        'top': h*index+(a.outerHeight()-b.outerHeight())/2+1
+      },50);
+    }
+  }
+  function window_scroll() {
+    var st=window.pageYOffset
+    			|| document.documentElement.scrollTop
+    			|| document.body.scrollTop
+    			|| 0;
+    var limit=Math.ceil(st+98);
+    var index=0;
+    for (var i = 0; i < arr.length; i++) {
+      if (limit>=arr[i]) {
+        index=i;
+      }else{
+        break;
+      }
+    }
+    if (index<0) index=0;
+    if (!p.eq(index).hasClass('current')) {
+      p.removeClass('current');
+      p.eq(index).addClass('current');
+      goto_current(index);
+    }
+  }
+  part_offset_top();
+  setTimeout(window_scroll,0);
+  $(window).on('scroll',window_scroll);
+})(jQuery);
+/* --侧边栏滚动时固定-- */
+(function($){
+  var s=$('.sidebar');
+  
+  if(s.length<1) return;
+  var c=s.children('.content-sidebar');
+  if(c.length<1) return;
+  var $parent=s.parent();
+  if($parent.length<1) return;
+  var start=0,stop=0,cHeight=0;
+  function init() {
+    var soffset=s.offset();
+    start=soffset.top;
+    stop=start+$parent.height();
+    cinit();
+  }
+  function cinit() {
+    cHeight=c.height();
+  }
+  function cClear(){
+    c.removeClass('fixed');
+    c.removeClass('absolute');
+  }
+  function check_scroll(){
+    var st=window.pageYOffset
+    			|| document.documentElement.scrollTop
+    			|| document.body.scrollTop
+    			|| 0;
+    if (st<=start) {
+      cClear();
+    }
+    if (st>=stop-cHeight) {
+      c.removeClass('fixed');
+      c.addClass('absolute');
+      return;
+    }
+    if (st<stop-cHeight && st>start) {
+      c.removeClass('absolute');
+      c.addClass('fixed');
+    }
+  }
+  
+  init();
+  check_scroll();
+  $(window).on('resize',init);
+  $(window).on('scroll',check_scroll);
+})(jQuery);
+
+(function () {
+  'use strict'
+
+  document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+    document.querySelector('.offcanvas-collapse').classList.toggle('open')
+  })
+})()
+</script>
+<div style="display:none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6d663ac80d8b95a60e359ffed9f3d0d0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2BKSTK8N4K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2BKSTK8N4K');
+</script>
+</div>
+
+
+<div class="modal fade" id="tg-1" tabindex="-1" role="dialog" aria-labelledby="tg-1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold text-danger"><i class="fas fa-comments-dollar"></i> textxx</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span> 
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="text-center">
+      xxx
+      </div>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

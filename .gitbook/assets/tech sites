@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   	<title> 社区/媒体 | 菜鸟工具</title>
+     	<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='stylesheet' id='wpProQuiz_front_style-css' href='https://www.jyshare.com/wp-content/plugins/Wp-Pro-Quiz/css/wpProQuiz_front.min.css?ver=0.37' type='text/css' media='all' />
+<link rel="canonical" href="https://www.jyshare.com/tech-sites/" />
+<meta name="keywords" content="社区/媒体">
+<meta name="description" content="菜鸟工具-社区/媒体..">
+  <link rel="shortcut icon" href="https://static.jyshare.com/images/c-runoob-logo.ico">  
+			
+    	
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="https://www.jyshare.com/wp-content/themes/toolrunoob2/bootstrap.min.css">
+
+   <!-- Custom Fonts -->
+   <link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]> 
+        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/html5shiv/r29/html5.min.js"></script>
+        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- PHP 代码 -->
+    <link rel="stylesheet" href="https://www.jyshare.com/wp-content/themes/toolrunoob2/style.css?version=1.401">
+
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/clipboard.js/2.0.4/clipboard.min.js"></script>
+</head>
+
+<body>
+<style>
+
+.navbar-nav .nav-item {
+  white-space: nowrap; /* 防止li内部换行 */
+}
+
+.navbar-nav .nav-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* 防止链接文字换行 */
+}
+.navbar,.page-footer {
+
+background: rgb(75, 81, 104);
+border-width: 0px 0px 3px;
+border-bottom: 3px solid transparent;
+border-image: linear-gradient(90deg, rgb(141, 66, 108) 16%, rgb(81, 153, 211) 16%, rgb(81, 153, 211) 32%, rgb(34, 201, 148) 32%, rgb(34, 201, 148) 48%, rgb(240, 198, 18), 48%, rgb(240, 198, 18), 64%, rgb(255, 171, 77) 64%, rgb(255, 171, 77) 82%, rgb(210, 70, 93) 82%) 1 / 1 / 0 stretch;
+}
+.page-footer {
+  border-top: 3px solid transparent;
+  border-width: 3px 0px 0px;
+}
+</style>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark "> 
+  <a class="navbar-brand mr-auto mr-lg-2" href="/">
+  <img src="https://static.jyshare.com/images/JYSHARE-COM.png" style="height: 36px;"  class="d-inline-block align-top" alt="菜鸟工具">
+     </a>
+  <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/front-end/61">WEB在线工具</a>
+      </li>
+    
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank nav-item-runoob" class="nav-link" href="https://www.jyshare.com/more/shapefly-diagram/">在线画图</a> 
+      </li>
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/ai/">AI集合</a>
+      </li>
+   
+     <!-- 
+      <li class="nav-item">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/email/">邮箱导航</a>
+      </li>
+       <li class="nav-item">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/currencyconverter/">汇率换算器</a>
+      </li>
+      -->
+    
+     
+      
+     
+
+     
+      <li class="nav-item">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/time/">世界时间</a>
+      </li>
+     
+      <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.jyshare.com/more/svgeditor/">SVG在线工具</a>
+      </li>
+     
+	  <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" href="https://www.runoob.com/">菜鸟教程</a>
+      </li>
+                    <li class="nav-item nav-item-runoob">
+	  <a target="_blank" class="nav-link" data-time=846527 href="https://codegeex.cn/zh-CN?channel_utm_campaign=media037&utm_campaign=media037
+">CodeGeeX编程助手</a>
+      </li>
+      
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="dropdown01" data-toggle="dropdown" aria-expanded="false">更多频道</a>
+        <style>
+        .multi-column-dropdown {
+            column-count: 2; /* 设置两列 */
+            column-gap: 1rem; /* 列之间的间隔 */
+        }
+        </style> 
+        <div class="dropdown-menu multi-column-dropdown shadow bg-light">
+    
+        <div class="dropdown-column">
+        <a href="https://www.jyshare.com/email/" class="dropdown-item" target="_blank"><i class="fas fa-envelope"></i> 邮箱导航</a>
+		     <a href="https://www.jyshare.com/web-developer/" class="dropdown-item" target="_blank"><i class="fab fa-html5"></i> 前端开发</a>
+         <a href="https://www.jyshare.com/media-om/" class="dropdown-item" target="_blank"><i class="fas fa-photo-video"></i> 媒体运营</a>
+         <a href="https://www.jyshare.com/tech-sites/" class="dropdown-item" target="_blank"><i class="fas fa-microchip"></i> 科技网站</a>
+         <a href="https://www.jyshare.com/cloud-server/" class="dropdown-item" target="_blank"><i class="fas fa-server"></i> 云服务器</a>
+         <a href="https://www.jyshare.com/office/" class="dropdown-item" target="_blank"><i class="fab fa-microsoft"></i> 办公软件</a>
+         <a href="https://www.jyshare.com/scholar/" class="dropdown-item" target="_blank"><i class="fas fa-search-plus"></i> 学术搜索</a>
+    </div>
+    <div class="dropdown-column">
+         <a href="https://www.jyshare.com/ai/" class="dropdown-item" target="_blank"><i class="fas fa-robot"></i> AI 应用</a>
+         <a href="https://www.jyshare.com/coupon/" class="dropdown-item" target="_blank"><i class="fas fa-shopping-cart"></i> 购物平台</a>
+         <a href="https://www.jyshare.com/quiz/" class="dropdown-item" target="_blank"><i class="fas fa-feather"></i> 在线测验</a>
+         <a href="https://www.jyshare.com/finance/" class="dropdown-item" target="_blank"><i class="fas fa-piggy-bank"></i> 财经频道</a>
+         <a href="https://www.jyshare.com/banks/" class="dropdown-item" target="_blank"><i class="fas fa-landmark"></i> 银行机构</a>
+         <a href="https://www.jyshare.com/danwei/" class="dropdown-item" target="_blank"><i class="fas fa-weight"></i> 单位换算</a>
+         <a href="https://www.jyshare.com/sports/" class="dropdown-item" target="_blank"><i class="fas fa-basketball-ball"></i> 体育频道</a>
+    </div>
+        </div>
+      </li>
+  
+    </ul>
+    <style>
+   
+</style>
+    <form class="form-inline my-2 my-lg-0" action="/index.php" method="get">
+	      <div class="input-group has-search">
+     
+      <input class="form-control mr-sm-2" name="s" value="" type="text" placeholder="搜索..." aria-label="Search">
+     
+    </div>
+<!--
+      <button class="btn btn-warning my-2 my-sm-0" type="submit" >搜索</button>  -->
+    </form>
+      </div>
+</nav>
+<script>
+var is_home = false;
+</script>
+<div class="nav-scroller bg-white shadow-sm fixed-top" id="navScroller" style="position: fixed;">
+  <nav class="nav nav-underline">
+    <a class="nav-link active" href="javascript:void();"><i class="fa fa-compass" aria-hidden="true"></i> 快速导航</a>
+    <a class="nav-link" href="#top-0">编译工具</a>
+    <a class="nav-link" href="#top-1">前端工具</a>
+  </nav>
+</div>
+<script>
+is_home = true;
+function setNavScrollerTop() {
+  var navHeight = $('.navbar').outerHeight();
+  $('#navScroller').css('top', navHeight);
+}
+
+// 初始化时设置
+setNavScrollerTop();
+
+// 页面大小改变时重新设置
+$(window).resize(setNavScrollerTop);
+document.querySelector('.form-control').addEventListener('keypress', function(event) {
+  if (event.key === 'Enter' || event.keyCode === 13) {
+    // 阻止默认行为（例如在输入框中插入换行）
+    event.preventDefault();
+    document.querySelector('.form-inline').submit(); // 回车键触发表单提交
+  }
+});
+
+</script>
+<style>
+
+
+</style>
+<div class="runoob-home-main mt-4">
+<div class="container" style="max-width: 1600px;"> 
+
+<div class="row runoob-item" data-text="科技媒体" id="runoob-goto-70">
+  <div class="col-md-12">
+    <div class="runoob-item-name">
+        <div class="d-inline">  
+            <i class="fa fa-list"></i>
+        </div>
+        <div class="d-inline">
+        科技媒体 | <i class="fas fa-search search-icon"></i>
+        </div>
+        <div style="display:none;" class="search-box"><input type="text"  class="form-control search-input" placeholder="搜索工具..." ></div>
+    </div>
+  </div>
+  <div class="col-md-12 nav-moredata">
+ 
+    <ul id="runoob_link_cate_70" style="">
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="以社区为中心的技术媒体平台，致力于促进软件开发及相关领域知识与创新的传播" href="https://www.infoq.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/03/infoq-logo.png">  InfoQ-极客邦        </a>
+        <p class="desc"> 以社区为中心的技术媒体平台，致力于促进软件开发及相关领域知识与创新的传播</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="提供创业资讯、科技新闻，让一部分人先看到未来" href="https://36kr.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/36kr-logo.png">  36 氪        </a>
+        <p class="desc"> 提供创业资讯、科技新闻，让一部分人先看到未来</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="提供科技资讯、商业评论" href="https://www.huxiu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/huxu-logo.jpeg">  虎嗅网        </a>
+        <p class="desc"> 提供科技资讯、商业评论</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="全球科技财经资讯平台" href="https://www.tmtpost.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/tmtpost-icon.jpeg">  钛媒体        </a>
+        <p class="desc"> 全球科技财经资讯平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="聚焦新创和消费主题的科技媒体" href="https://www.ifanr.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/ifran-logo.png">  爱范儿        </a>
+        <p class="desc"> 聚焦新创和消费主题的科技媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="关注创新经济及其推动者" href="https://www.cyzone.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/cyzone-logo.jpeg">  创业邦        </a>
+        <p class="desc"> 关注创新经济及其推动者</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="科技资讯站点和网友交流平台" href="https://www.cnbeta.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/cnbeta-logo.jpeg">  cnBeta        </a>
+        <p class="desc"> 科技资讯站点和网友交流平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="科技内容平台和创新连接器" href="https://www.pingwest.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/pinw-logo.png">  品玩        </a>
+        <p class="desc"> 科技内容平台和创新连接器</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="科普中国提供科学、权威、准确的科普信息内容和相关资讯" href="https://www.kepuchina.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/anyknew.png">  科普中国        </a>
+        <p class="desc"> 科普中国提供科学、权威、准确的科普信息内容和相关资讯</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="互联网门户网站,追踪相关新闻资讯，关注最新行业动态" href="https://www.donews.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Donews.jpg">  Donews        </a>
+        <p class="desc"> 互联网门户网站,追踪相关新闻资讯，关注最新行业动态</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="运用数字产品或科学方法，帮助用户提升工作效率和生活品质" href="https://sspai.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/shao-shu-pai.png">  少数派        </a>
+        <p class="desc"> 运用数字产品或科学方法，帮助用户提升工作效率和生活品质</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一个对全球前沿技术趋势与产品动态进行深入调研与解读的信息服务平台" href="https://www.leiphone.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/leifengwang.png">  雷锋网        </a>
+        <p class="desc"> 是一个对全球前沿技术趋势与产品动态进行深入调研与解读的信息服务平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一个创业社区，通过线上社区和线下活动为创业者提供互联网领域最新资源" href="https://www.geekpark.net/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/jike-gongyuan.png">  极客公园        </a>
+        <p class="desc"> 是一个创业社区，通过线上社区和线下活动为创业者提供互联网领域最新资源</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="领先的互联网消费互动媒体" href="http://www.techweb.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/techweb.png">  TechWeb        </a>
+        <p class="desc"> 领先的互联网消费互动媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="大中华区专业IT网站" href="https://www.zol.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/zhong-guan-cun.png">  中关村在线        </a>
+        <p class="desc"> 大中华区专业IT网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="创业创新服务平台" href="http://www.iheima.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/i-hei-ma.jpg">  i黑马        </a>
+        <p class="desc"> 创业创新服务平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是新浪网一个24小时滚动报道IT业界、电信、互联网、科学探索资讯的频道" href="https://tech.sina.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/xinlang.png">  新浪科技        </a>
+        <p class="desc"> 是新浪网一个24小时滚动报道IT业界、电信、互联网、科学探索资讯的频道</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个推荐优质资讯的互联网媒体平台" href="https://new.qq.com/ch/tech/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/tengxunkeji.jpg">  腾讯科技        </a>
+        <p class="desc"> 一个推荐优质资讯的互联网媒体平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="以独特视角呈现科技圈内大事小事，内容包括互联网、IT业界、通信、趋势、科技访谈等" href="https://tech.163.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/wangyihao.jpg">  网易科技        </a>
+        <p class="desc"> 以独特视角呈现科技圈内大事小事，内容包括互联网、IT业界、通信、趋势、科技访谈等</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="直击真相的科技媒体" href="https://tech.ifeng.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/fenghuang-keji.png">  凤凰科技        </a>
+        <p class="desc"> 直击真相的科技媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一个聚合互联网、智能硬件、创业投资、通讯数码等科技资讯的媒体平台" href="https://it.sohu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/souhu-IT.jpg">  搜狐IT        </a>
+        <p class="desc"> 是一个聚合互联网、智能硬件、创业投资、通讯数码等科技资讯的媒体平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="科技与产业创新服务平台" href="https://www.iyiou.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/yi-ou-wang.png">  亿欧网        </a>
+        <p class="desc"> 科技与产业创新服务平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="为用户提供第一手的科技新闻资讯、产品评测、驱动下载等服务" href="https://www.mydrivers.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/kuai-keji-1.png">  快科技        </a>
+        <p class="desc"> 为用户提供第一手的科技新闻资讯、产品评测、驱动下载等服务</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="电子商务及产业数字化知识服务平台" href="https://www.ebrun.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/yi-bang-dong-li.jpg">  亿邦动力        </a>
+        <p class="desc"> 电子商务及产业数字化知识服务平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="青岛软媒旗下前沿科技门户网站" href="https://www.ithome.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/IT-zhi-jia.jpg">  IT之家        </a>
+        <p class="desc"> 青岛软媒旗下前沿科技门户网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="全球金融行情资讯专家" href="https://cn.investing.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/yingweicaiqing.jpg">  英为财情        </a>
+        <p class="desc"> 全球金融行情资讯专家</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一个泛科技主题网站，提供负责任、有智趣、贴近生活的内容" href="https://www.guokr.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/guoke.jpg">  果壳网        </a>
+        <p class="desc"> 是一个泛科技主题网站，提供负责任、有智趣、贴近生活的内容</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="产品经理、产品爱好者学习交流平台" href="http://www.woshipm.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/woshiPM.png">  我是PM        </a>
+        <p class="desc"> 产品经理、产品爱好者学习交流平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="互联网运营推广学习平台" href="https://www.opp2.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/06/opp2-logo.jpeg">  青瓜传媒        </a>
+        <p class="desc"> 互联网运营推广学习平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="准确、快速、有深度的科技媒体" href="https://www.bianews.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/06/bianniushi.png">  鞭牛士        </a>
+        <p class="desc"> 准确、快速、有深度的科技媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="分享美好数字生活体验" href="https://www.dgtle.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/02/dgtle.png">  数字尾巴        </a>
+        <p class="desc"> 分享美好数字生活体验</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="分享与交流用户体验" href="https://www.chiphell.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/03/chiphell.jpg">  Chiphell        </a>
+        <p class="desc"> 分享与交流用户体验</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="致力于分享游戏玩家的生活，以及探讨游戏相关的文化" href="https://www.gcores.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/03/gcores.png">  GCORES机核        </a>
+        <p class="desc"> 致力于分享游戏玩家的生活，以及探讨游戏相关的文化</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="机械键盘、键帽、HiFi、摄影装备发烧友聚集地" href="https://www.zfrontier.com/app/#new" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/03/zhuangbei.png">  装备前线        </a>
+        <p class="desc"> 机械键盘、键帽、HiFi、摄影装备发烧友聚集地</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="产品经理社区" href="https://www.pmcaff.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/03/PMCAFF.jpg">  PMCAFF        </a>
+        <p class="desc"> 产品经理社区</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="专注于展示和发现新的数字产品、创意项目和创新技术" href="https://www.producthunt.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2024/12/producthunt-logo.png">  Product Hunt        </a>
+        <p class="desc"> 专注于展示和发现新的数字产品、创意项目和创新技术</p>
+      </li>
+       
+    </ul>
+  
+    </div>
+  </div>
+  
+<div class="row runoob-item" data-text="新闻资讯" id="runoob-goto-175">
+  <div class="col-md-12">
+    <div class="runoob-item-name">
+        <div class="d-inline">  
+            <i class="fa fa-list"></i>
+        </div>
+        <div class="d-inline">
+        新闻资讯 | <i class="fas fa-search search-icon"></i>
+        </div>
+        <div style="display:none;" class="search-box"><input type="text"  class="form-control search-input" placeholder="搜索工具..." ></div>
+    </div>
+  </div>
+  <div class="col-md-12 nav-moredata">
+ 
+    <ul id="runoob_link_cate_175" style="">
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="网上的人民日报，以新闻为主的大型网上信息发布平台" href="http://people.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/renminwang.png">  人民网        </a>
+        <p class="desc"> 网上的人民日报，以新闻为主的大型网上信息发布平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="原创财经新媒体，提供每日经济活动必需的财经新闻和资讯评论" href="https://www.caixin.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/caixinwang.jpg">  财新网        </a>
+        <p class="desc"> 原创财经新媒体，提供每日经济活动必需的财经新闻和资讯评论</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="中国主要重点新闻网站" href="http://xinhuanet.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/xinhuawang.png">  新华网        </a>
+        <p class="desc"> 中国主要重点新闻网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="中国经济网是国家重点新闻网站中唯一以经济报道为中心的综合新闻网站" href="http://www.ce.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/06/zhongguojingji-wang.png">  中国经济网        </a>
+        <p class="desc"> 中国经济网是国家重点新闻网站中唯一以经济报道为中心的综合新闻网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="最全的互联网社会热点聚合平台，最深度的事件真相解读" href="https://ef.zhiweidata.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/06/zhiweishijian-1.png">  知微事见        </a>
+        <p class="desc"> 最全的互联网社会热点聚合平台，最深度的事件真相解读</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="汇集各大主流媒体精华" href="https://www.cankaoxiaoxi.com/#/index" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/cankaoxiaoxi.jpg">  参考消息        </a>
+        <p class="desc"> 汇集各大主流媒体精华</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是了解每天重要新闻的重要渠道" href="https://tv.cctv.com/lm/xwlb/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/xinwenlianbo.png">  央视网（新闻联播）        </a>
+        <p class="desc"> 是了解每天重要新闻的重要渠道</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="梳理天下新闻" href="https://www.chinanews.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/zhongxinwang.jpg">  中新网        </a>
+        <p class="desc"> 梳理天下新闻</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="为全球用户24小时提供全面及时的中文资讯" href="https://www.sina.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/xinlangwang.png">  新浪        </a>
+        <p class="desc"> 为全球用户24小时提供全面及时的中文资讯</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是中国领先的综合门户网站" href="https://www.ifeng.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/fenghuangwang.jpg">  凤凰网        </a>
+        <p class="desc"> 是中国领先的综合门户网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="专注时政与思想" href="https://www.thepaper.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/pengpai.png">  澎湃新闻        </a>
+        <p class="desc"> 专注时政与思想</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个互联网信息网站" href="https://readhub.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/readhub.png">  Readhub        </a>
+        <p class="desc"> 一个互联网信息网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="读懂国际 点赞中国" href="https://www.cri.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/guojizaixian.png">  国际在线        </a>
+        <p class="desc"> 读懂国际 点赞中国</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="传播中国，影响世界" href="https://cn.chinadaily.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/zhongguoribao.jpg">  中国日报网        </a>
+        <p class="desc"> 传播中国，影响世界</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="国家重点新闻网站" href="http://www.china.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/zhongguowang.png">  中国网        </a>
+        <p class="desc"> 国家重点新闻网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="知识分子的网上精神家园" href="https://www.gmw.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/guangmingwang.png">  光明网        </a>
+        <p class="desc"> 知识分子的网上精神家园</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="中央广播电视总台" href="https://www.cnr.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/yangguangwang.png">  央广网        </a>
+        <p class="desc"> 中央广播电视总台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="思想建党，理论强党" href="https://www.qstheory.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/qiushi.png">  求是网        </a>
+        <p class="desc"> 思想建党，理论强党</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="青年温度、青春靓度、青网态度" href="https://www.youth.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/zhongqingwang.jpg">  中青网        </a>
+        <p class="desc"> 青年温度、青春靓度、青网态度</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="中央网络安全和信息化委员会办公室" href="https://www.cac.gov.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/wangxin.png">  网信网        </a>
+        <p class="desc"> 中央网络安全和信息化委员会办公室</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="为用户提供24小时不间断的最新资讯，及搜索、邮件等网络服务" href="https://www.sohu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/souhu.png">  搜狐        </a>
+        <p class="desc"> 为用户提供24小时不间断的最新资讯，及搜索、邮件等网络服务</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="互联网媒体平台" href="https://www.qq.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/tengxun.png">  腾讯        </a>
+        <p class="desc"> 互联网媒体平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="为用户提供各种资讯" href="https://www.163.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/10/wangyi.jpg">  网易        </a>
+        <p class="desc"> 为用户提供各种资讯</p>
+      </li>
+       
+    </ul>
+  
+    </div>
+  </div>
+  
+<div class="row runoob-item" data-text="海外科技媒体" id="runoob-goto-72">
+  <div class="col-md-12">
+    <div class="runoob-item-name">
+        <div class="d-inline">  
+            <i class="fa fa-list"></i>
+        </div>
+        <div class="d-inline">
+        海外科技媒体 | <i class="fas fa-search search-icon"></i>
+        </div>
+        <div style="display:none;" class="search-box"><input type="text"  class="form-control search-input" placeholder="搜索工具..." ></div>
+    </div>
+  </div>
+  <div class="col-md-12 nav-moredata">
+ 
+    <ul id="runoob_link_cate_72" style="">
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国商业杂志之一，报道美国最新潮的商业案例" href="https://www.fastcompany.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Fast-Company.png">  Fast Company        </a>
+        <p class="desc"> 美国商业杂志之一，报道美国最新潮的商业案例</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="哈佛商学院的标志性杂志，给领导者的想法和建议" href="https://hbr.org/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Harvard-Business-Review.jpg">  Harvard Business Review        </a>
+        <p class="desc"> 哈佛商学院的标志性杂志，给领导者的想法和建议</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="由麻省理工学院出版，是一本权威且专业的“技术杂志”" href="https://www.technologyreview.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/MIT-Technology-Review.jpg">  MIT Technology Review        </a>
+        <p class="desc"> 由麻省理工学院出版，是一本权威且专业的“技术杂志”</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国权威商业杂志，报道以金融、工业、投资和营销等主题为主" href="https://www.forbes.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/forbes.png">  Forbes        </a>
+        <p class="desc"> 美国权威商业杂志，报道以金融、工业、投资和营销等主题为主</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="华盛顿邮报科技版，专门报道科技" href="https://www.washingtonpost.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/The-Washington-Post-Technology.png">  The Washington Post-Technology        </a>
+        <p class="desc"> 华盛顿邮报科技版，专门报道科技</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="报道关于创业家、小型企业管理和商业机遇新闻的杂志和新闻网站" href="https://www.entrepreneur.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/entrepreneur.png">  Entrepreneur        </a>
+        <p class="desc"> 报道关于创业家、小型企业管理和商业机遇新闻的杂志和新闻网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="报道最新的技术、科学、文化和商业" href="https://www.wired.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Wired.jpg">  Wired        </a>
+        <p class="desc"> 报道最新的技术、科学、文化和商业</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="IDG旗下的全球性IT专业杂志" href="https://www.pcworld.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/PCWorld.png">  PCWorld        </a>
+        <p class="desc"> IDG旗下的全球性IT专业杂志</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="针对市场上最主流的笔记本电脑进行专业的评测和排名" href="https://www.laptopmag.com/uk" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Laptop.png">  Laptop        </a>
+        <p class="desc"> 针对市场上最主流的笔记本电脑进行专业的评测和排名</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国科普杂志" href="https://www.scientificamerican.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/scientific_american.png">  Scientific American        </a>
+        <p class="desc"> 美国科普杂志</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="通俗易懂地报道生活科技前沿信息" href="https://www.popsci.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Popular-Science.png">  Popular Science        </a>
+        <p class="desc"> 通俗易懂地报道生活科技前沿信息</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="主要报道新兴互联网公司、评论互联网新产品、发布重大突发新闻" href="https://techcrunch.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/TechCrunch.jpg">  TechCrunch        </a>
+        <p class="desc"> 主要报道新兴互联网公司、评论互联网新产品、发布重大突发新闻</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国科技新闻网站，以消费电子类产品最新新闻和测评为主" href="https://www.engadget.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Engadget.jpg">  Engadget        </a>
+        <p class="desc"> 美国科技新闻网站，以消费电子类产品最新新闻和测评为主</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是美国一家科技新闻网站，主要是发布产品评论、建议、操作指南和最新新闻" href="https://www.cnet.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/CNet.png">  CNET        </a>
+        <p class="desc"> 是美国一家科技新闻网站，主要是发布产品评论、建议、操作指南和最新新闻</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="发布关于苹果公司的爆炸性头条" href="https://9to5mac.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/9to5Mac.jpg">  9to5mac        </a>
+        <p class="desc"> 发布关于苹果公司的爆炸性头条</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="苹果公司的八卦信息交换站" href="https://www.macrumors.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/MacRumors.jpg">  MacRumors        </a>
+        <p class="desc"> 苹果公司的八卦信息交换站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="发布最新的谷歌研究资讯" href="https://research.googleblog.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Google-Research-Blog.png">  Google Research Blog        </a>
+        <p class="desc"> 发布最新的谷歌研究资讯</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国科技博客" href="https://www.vox.com/recode" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Recode.jpg">  Recode        </a>
+        <p class="desc"> 美国科技博客</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="发布IT专业人士的技术新闻、分析、评论和产品评论" href="https://www.zdnet.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/ZDNet-logo.png">  ZDNet        </a>
+        <p class="desc"> 发布IT专业人士的技术新闻、分析、评论和产品评论</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="以美国互联网产业、科技博客，分析评论为主要内容的媒体" href="https://venturebeat.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/VentureBeat.jpg">  VentureBeat        </a>
+        <p class="desc"> 以美国互联网产业、科技博客，分析评论为主要内容的媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个致力于未来科技发展和最新科技成果的新闻网站" href="https://futurism.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/futurism.jpg">  Futurism        </a>
+        <p class="desc"> 一个致力于未来科技发展和最新科技成果的新闻网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="致力于为读者提供有趣的技术类文章" href="https://www.howtogeek.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/haotogeek.png">  How-To Geek        </a>
+        <p class="desc"> 致力于为读者提供有趣的技术类文章</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="通过深入的产品评论、视频、新闻以及目前正在发生的最佳交易，提供关于所有科技事物的最新报道" href="https://www.digitaltrends.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Digital-Trends.png">  Digital Trends        </a>
+        <p class="desc"> 通过深入的产品评论、视频、新闻以及目前正在发生的最佳交易，提供关于所有科技事物的最新报道</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国IT新闻网站，从解决方案角度提供有价值的信息，帮助用户制定策略" href="https://www.itbusinessedge.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/It-BusinessEdge.png">  IT Business Edge        </a>
+        <p class="desc"> 美国IT新闻网站，从解决方案角度提供有价值的信息，帮助用户制定策略</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="印度创投媒体" href="https://yourstory.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/YourStory.jpg">  YourStory        </a>
+        <p class="desc"> 印度创投媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="以提高读者对香港创业公司和企业家的认识为目标，并分享创业相关内容" href="http://www.startupshk.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Startups-HK.jpg">  Startups HK        </a>
+        <p class="desc"> 以提高读者对香港创业公司和企业家的认识为目标，并分享创业相关内容</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="欧洲互联网创业信息网站" href="https://tech.eu/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/TechEU.jpeg">  TechEU        </a>
+        <p class="desc"> 欧洲互联网创业信息网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="东南亚知名创投媒体，连接亚洲创业生态系统" href="https://www.techinasia.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Tech-in-Asia.jpg">  Tech in Asia        </a>
+        <p class="desc"> 东南亚知名创投媒体，连接亚洲创业生态系统</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="介绍美国关于科技金融的最新消息" href="https://fintechranking.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/FinTech-Ranking.png">  FinTech Ranking        </a>
+        <p class="desc"> 介绍美国关于科技金融的最新消息</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="致力于报道物联网产业的领先媒体平台" href="https://readwrite.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/read-write.png">  ReadWrite        </a>
+        <p class="desc"> 致力于报道物联网产业的领先媒体平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="VR和AR垂直媒体" href="https://uploadvr.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/UploadVR.png">  UploadVR        </a>
+        <p class="desc"> VR和AR垂直媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="欧洲科技新闻网站，提供有关互联网技术、创业，具有国际视野的最新消息" href="https://thenextweb.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/The-Next-Web.jpg">  The Next Web        </a>
+        <p class="desc"> 欧洲科技新闻网站，提供有关互联网技术、创业，具有国际视野的最新消息</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一本知识、文艺类的综合杂志" href="https://www.newyorker.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/The-New-Yorker.jpg">  The New Yorker        </a>
+        <p class="desc"> 是一本知识、文艺类的综合杂志</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个收集全球最独特的、创新理念的产品推荐创意目录网站" href="https://www.springwise.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/springwise.png">  SpringWise        </a>
+        <p class="desc"> 一个收集全球最独特的、创新理念的产品推荐创意目录网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="英国数字媒体，全天候更新电视、电影、名人、娱乐、游戏和科技新闻" href="https://www.digitalspy.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Digital-Spy.png">  Digital Spy        </a>
+        <p class="desc"> 英国数字媒体，全天候更新电视、电影、名人、娱乐、游戏和科技新闻</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国最著名的众筹网站，致力于支持和激励创新创意活动" href="https://www.kickstarter.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/kickstarter.png">  kickstarter        </a>
+        <p class="desc"> 美国最著名的众筹网站，致力于支持和激励创新创意活动</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="协作型媒体平台" href="https://medium.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Medium.png">  Medium        </a>
+        <p class="desc"> 协作型媒体平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="华尔街日报，着重在财经新闻的报道" href="https://www.usnews.com/topics/organizations/wall_street_journal" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Wall-Street-Journal-Logo-1.jpg">  Wall street Journal        </a>
+        <p class="desc"> 华尔街日报，着重在财经新闻的报道</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一家美国科技媒体网站，提供新闻、产品评论、播客、视频等内容" href="https://www.theverge.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/The-Verge-1.png">  The Verge        </a>
+        <p class="desc"> 是一家美国科技媒体网站，提供新闻、产品评论、播客、视频等内容</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是世界多媒体新闻通讯社，提供各类新闻和金融数据" href="https://www.reutersagency.com/en/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Reuters.png">  Reuters        </a>
+        <p class="desc"> 是世界多媒体新闻通讯社，提供各类新闻和金融数据</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是美国知名科技博客媒体，它发布新闻、评论和指导" href="https://arstechnica.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Ars-Technica.jpeg">  Ars Technica        </a>
+        <p class="desc"> 是美国知名科技博客媒体，它发布新闻、评论和指导</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一個科技博客网站,为科技革新者提供互联网传媒、新闻和搜索服务" href="https://gigaom.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Gigaom.jpg">  Gigaom        </a>
+        <p class="desc"> 一個科技博客网站,为科技革新者提供互联网传媒、新闻和搜索服务</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一份在美国纽约时报，向读者提供全球时事、商业及文化生活领域的报道" href="https://www.nytimes.com" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/New-York-Times.png">  New York Times        </a>
+        <p class="desc"> 一份在美国纽约时报，向读者提供全球时事、商业及文化生活领域的报道</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是全球商业、金融信息和财经资讯的领先提供商" href="http://www.bloomberg.com" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Bloomberg.jpg">  Bloomberg        </a>
+        <p class="desc"> 是全球商业、金融信息和财经资讯的领先提供商</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="美国财富杂志，主要刊登经济问题研究文章" href="https://fortune.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Fortune.png">  Fortune        </a>
+        <p class="desc"> 美国财富杂志，主要刊登经济问题研究文章</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="发布科技与金融领域的突发新闻" href="https://www.geekwire.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Geekwire.jpg">  Geekwire        </a>
+        <p class="desc"> 发布科技与金融领域的突发新闻</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="《卫报》是英国的全国性综合内容日报" href="https://www.theguardian.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Guardian.png">  Guardian        </a>
+        <p class="desc"> 《卫报》是英国的全国性综合内容日报</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是美国知名的科技博客、数字媒体创业公司、在线新闻平台。是一家关注IT和创业的重量级博客媒体" href="http://www.businessinsider.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Business-Insider.jpg">  Business Insider        </a>
+        <p class="desc"> 是美国知名的科技博客、数字媒体创业公司、在线新闻平台。是一家关注IT和创业的重量级博客媒体</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="科技品新闻网站" href="https://www.tech2.com" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Tech2.jpg">  Tech2        </a>
+        <p class="desc"> 科技品新闻网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="只做gadgets相关的新闻" href="https://gizmodo.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Gizmodo.png">  Gizmodo        </a>
+        <p class="desc"> 只做gadgets相关的新闻</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一家全球性的多平台媒体和娱乐公司" href="https://mashable.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Mashable.png">  Mashable        </a>
+        <p class="desc"> 是一家全球性的多平台媒体和娱乐公司</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个专注于技术、科技产品的新闻和评论网站" href="https://www.techradar.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/TechRadar.png">  TechRadar        </a>
+        <p class="desc"> 一个专注于技术、科技产品的新闻和评论网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一个著名的博客搜索引擎" href="https://technorati.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Technorati-1.png">  Technorati        </a>
+        <p class="desc"> 是一个著名的博客搜索引擎</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="提供PlayStation、PS5、PS4、PS VR、PlayStation Plus等的新闻和视频更新" href="https://blog.playstation.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/PlayStation.png">  PlayStation.Blog        </a>
+        <p class="desc"> 提供PlayStation、PS5、PS4、PS VR、PlayStation Plus等的新闻和视频更新</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个关注最新科技的网站" href="https://www.slashgear.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/SlashGear.jpg">  SlashGear        </a>
+        <p class="desc"> 一个关注最新科技的网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是互联网上最流行的技术博客之一，关注小工具和制造小工具的技术" href="https://www.ubergizmo.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Ubergizmo.png">  Ubergizmo        </a>
+        <p class="desc"> 是互联网上最流行的技术博客之一，关注小工具和制造小工具的技术</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="发布与安卓有关的新闻" href="https://www.droid-life.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Droid-Life.png">  Droid Life        </a>
+        <p class="desc"> 发布与安卓有关的新闻</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="欧洲游戏网站，一直致力于视频游戏业务" href="https://www.eurogamer.net/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Eurogamer.jpg">  Eurogamer        </a>
+        <p class="desc"> 欧洲游戏网站，一直致力于视频游戏业务</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="科技产品评测、首选产品及如何使用" href="https://www.tomsguide.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/03/tomsguide.jpg">  Tom&#039;s Guide        </a>
+        <p class="desc"> 科技产品评测、首选产品及如何使用</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="提供你在其他地方找不到的关于技术业务的重要的、深入报道的故事" href="https://www.theinformation.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/03/information.png">  The Information        </a>
+        <p class="desc"> 提供你在其他地方找不到的关于技术业务的重要的、深入报道的故事</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="专注于软件开发的新闻网站，涵盖架构、开发实践、AI等领域。" href="https://www.infoq.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2024/06/infoqcom.png">  InfoQ        </a>
+        <p class="desc"> 专注于软件开发的新闻网站，涵盖架构、开发实践、AI等领域。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="专注于展示和发现新的数字产品、创意项目和创新技术" href="https://www.producthunt.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2024/12/producthunt-logo.png">  Product Hunt        </a>
+        <p class="desc"> 专注于展示和发现新的数字产品、创意项目和创新技术</p>
+      </li>
+       
+    </ul>
+  
+    </div>
+  </div>
+  
+<div class="row runoob-item" data-text="社区媒体" id="runoob-goto-38">
+  <div class="col-md-12">
+    <div class="runoob-item-name">
+        <div class="d-inline">  
+            <i class="fa fa-list"></i>
+        </div>
+        <div class="d-inline">
+        社区媒体 | <i class="fas fa-search search-icon"></i>
+        </div>
+        <div style="display:none;" class="search-box"><input type="text"  class="form-control search-input" placeholder="搜索工具..." ></div>
+    </div>
+  </div>
+  <div class="col-md-12 nav-moredata">
+ 
+    <ul id="runoob_link_cate_38" style="">
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="提供图书、电影、音乐唱片的推荐、评论和价格比较，以及城市独特的文化生活" href="https://www.douban.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/douban.jpg">  豆瓣        </a>
+        <p class="desc"> 提供图书、电影、音乐唱片的推荐、评论和价格比较，以及城市独特的文化生活</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="坐标美国，平均薪资百万，质量还行的问答社区。" href="https://www.zhihu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/zhihu.png">  知乎        </a>
+        <p class="desc"> 坐标美国，平均薪资百万，质量还行的问答社区。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个发生热门事件就宕机的网站。" href="https://weibo.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/weibo.png">  微博        </a>
+        <p class="desc"> 一个发生热门事件就宕机的网站。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="致力于连接人与信息，内容丰富。" href="https://www.toutiao.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/toutiao.png">  今日头条        </a>
+        <p class="desc"> 致力于连接人与信息，内容丰富。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="有很多跳舞和讲成功学短视频内容。" href="https://www.douyin.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/douyin.jpg">  抖音        </a>
+        <p class="desc"> 有很多跳舞和讲成功学短视频内容。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="很多讲段子的短视频内容。" href="https://www.kuaishou.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/kuaishou.jpg">  快手        </a>
+        <p class="desc"> 很多讲段子的短视频内容。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="分享生活经验、发现美好、真实、多元的世界。" href="https://www.xiaohongshu.com/explore" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/xiaohongshu.jpg">  小红书        </a>
+        <p class="desc"> 分享生活经验、发现美好、真实、多元的世界。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="优质的内容创作社区。" href="https://www.jianshu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/jianshu.png">  简书        </a>
+        <p class="desc"> 优质的内容创作社区。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="韭菜常用社区。" href="https://xueqiu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/xueqiu.png">  雪球        </a>
+        <p class="desc"> 韭菜常用社区。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="体育赛事社区网站。" href="https://www.hupu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/hupu.png">  虎扑        </a>
+        <p class="desc"> 体育赛事社区网站。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="各种话题互撕。" href="https://tieba.baidu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/tieba.png">  百度贴吧        </a>
+        <p class="desc"> 各种话题互撕。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="视频弹幕网站" href="https://www.bilibili.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/bilibili-logo.png">  哔哩哔哩        </a>
+        <p class="desc"> 视频弹幕网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="每年都亏损的视频内容站" href="https://www.iqiyi.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/iqy-logo.jpeg">  爱奇艺        </a>
+        <p class="desc"> 每年都亏损的视频内容站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="广告相对少一点的视频站" href="https://www.ixigua.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/xigua-logo.jpeg">  西瓜视频        </a>
+        <p class="desc"> 广告相对少一点的视频站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="广告挺长的视频网站" href="https://v.qq.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/txv-logo.jpeg">  腾讯视频        </a>
+        <p class="desc"> 广告挺长的视频网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="视频看一半会弹出广告" href="https://www.youku.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/yk-logo.png">  优酷        </a>
+        <p class="desc"> 视频看一半会弹出广告</p>
+      </li>
+       
+    </ul>
+  
+    </div>
+  </div>
+  
+<div class="row runoob-item" data-text="海外社交媒体" id="runoob-goto-174">
+  <div class="col-md-12">
+    <div class="runoob-item-name">
+        <div class="d-inline">  
+            <i class="fa fa-list"></i>
+        </div>
+        <div class="d-inline">
+        海外社交媒体 | <i class="fas fa-search search-icon"></i>
+        </div>
+        <div style="display:none;" class="search-box"><input type="text"  class="form-control search-input" placeholder="搜索工具..." ></div>
+    </div>
+  </div>
+  <div class="col-md-12 nav-moredata">
+ 
+    <ul id="runoob_link_cate_174" style="">
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="和世界各地的程序员探讨和交流技术问题或 IT 热点资讯。" href="https://www.reddit.com/r/programming/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/03/reddit-logo.png">  Reddit        </a>
+        <p class="desc"> 和世界各地的程序员探讨和交流技术问题或 IT 热点资讯。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="全球最大的创意灵感图片分享站" href="https://www.pinterest.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/pinterest.jpg">  Pinterest        </a>
+        <p class="desc"> 全球最大的创意灵感图片分享站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="图片社交平台，访问需要技巧" href="https://www.instagram.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/4102579_applications_instagram_media_social_icon.png">  Instagram        </a>
+        <p class="desc"> 图片社交平台，访问需要技巧</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="全球最大视频网站" href="https://www.youtube.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/03/youtube.jpg">  YouTube        </a>
+        <p class="desc"> 全球最大视频网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="全球最大社交媒体平台" href="https://www.facebook.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/09/facebook.png">  FaceBook        </a>
+        <p class="desc"> 全球最大社交媒体平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="微博客和社交网络服务平台" href="https://twitter.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/09/x.png">  Twitter        </a>
+        <p class="desc"> 微博客和社交网络服务平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="全球最大职业社交网站" href="https://www.linkedin.com" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/09/linkedin.jpeg">  LinkedIn        </a>
+        <p class="desc"> 全球最大职业社交网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="即时通信软件" href="https://web.telegram.org/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/09/Telegram.png">  Telegram        </a>
+        <p class="desc"> 即时通信软件</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="国外版知乎，知识问答平台" href="https://www.quora.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/09/quora.png">  Quora        </a>
+        <p class="desc"> 国外版知乎，知识问答平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="社交网络平台" href="https://myspace.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2023/09/mysqpce.png">  MySpace        </a>
+        <p class="desc"> 社交网络平台</p>
+      </li>
+       
+    </ul>
+  
+    </div>
+  </div>
+  
+<div class="row runoob-item" data-text="自媒体平台" id="runoob-goto-73">
+  <div class="col-md-12">
+    <div class="runoob-item-name">
+        <div class="d-inline">  
+            <i class="fa fa-list"></i>
+        </div>
+        <div class="d-inline">
+        自媒体平台 | <i class="fas fa-search search-icon"></i>
+        </div>
+        <div style="display:none;" class="search-box"><input type="text"  class="form-control search-input" placeholder="搜索工具..." ></div>
+    </div>
+  </div>
+  <div class="col-md-12 nav-moredata">
+ 
+    <ul id="runoob_link_cate_73" style="">
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="很多讲段子的短视频内容。" href="https://www.kuaishou.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/kuaishou.jpg">  快手        </a>
+        <p class="desc"> 很多讲段子的短视频内容。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="优质的内容创作社区。" href="https://www.jianshu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/04/jianshu.png">  简书        </a>
+        <p class="desc"> 优质的内容创作社区。</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="微信公众平台，给个人、企业和组织提供业务服务与用户管理能力的全新服务平台" href="https://mp.weixin.qq.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/wei-xin-gongzhonghao.jpg">  微信公众号        </a>
+        <p class="desc"> 微信公众平台，给个人、企业和组织提供业务服务与用户管理能力的全新服务平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一款移动资讯类产品" href="https://mp.163.com/login.html" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/wangyihao.jpg">  网易号        </a>
+        <p class="desc"> 一款移动资讯类产品</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="腾讯内容开放平台" href="https://om.qq.com/userAuth/index" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/qi-er-hao.jpg">  企鹅号        </a>
+        <p class="desc"> 腾讯内容开放平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是阿里文娱体系为内容创作者提供的统一账号" href="https://mp.dayu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/dayuhao.png">  大鱼号        </a>
+        <p class="desc"> 是阿里文娱体系为内容创作者提供的统一账号</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一点资讯是一款智能的新闻资讯应用，" href="https://mp.yidianzixun.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/yi-dian-hao.png">  一点号        </a>
+        <p class="desc"> 一点资讯是一款智能的新闻资讯应用，</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一个推广媒体和自媒体优质内容的平台" href="https://mp.sohu.com/mpfe/v3/login" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/shouhuhao.jpg">  搜狐号        </a>
+        <p class="desc"> 是一个推广媒体和自媒体优质内容的平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="新浪网为自媒体提供的优质原创内容生产平台" href="https://mp.sina.com.cn/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/xinlang.png">  新浪看点        </a>
+        <p class="desc"> 新浪网为自媒体提供的优质原创内容生产平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是百度为创作者打造的集创作、发布、变现于一体的内容创作平台，也是众多企业号实现营销转化的运营新阵地" href="https://baijiahao.baidu.com/builder/theme/bjh/login" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/bai-jia-hao.png">  百家号        </a>
+        <p class="desc"> 是百度为创作者打造的集创作、发布、变现于一体的内容创作平台，也是众多企业号实现营销转化的运营新阵地</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="今日头条自媒体平台" href="https://mp.toutiao.com/auth/page/login" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/jrtt-logo.jpeg">  头条号        </a>
+        <p class="desc"> 今日头条自媒体平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一款音乐创意短视频社交软件" href="https://www.huoshanzhibo.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/huoshan.png">  火山视频        </a>
+        <p class="desc"> 是一款音乐创意短视频社交软件</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个创作视频，涨粉盈利的平台" href="https://channels.weixin.qq.com/platform/login" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/shipinhao.png">  视频号        </a>
+        <p class="desc"> 一个创作视频，涨粉盈利的平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="国内知名的视频弹幕网站" href="https://www.bilibili.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/Bzhan.png">  B站        </a>
+        <p class="desc"> 国内知名的视频弹幕网站</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="为用户提供优质的视频内容与观看体验" href="https://haokan.baidu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/haokanshipin.png">  好看视频        </a>
+        <p class="desc"> 为用户提供优质的视频内容与观看体验</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="短视频分享平台" href="https://www.miaopai.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/miaopai.png">  秒拍        </a>
+        <p class="desc"> 短视频分享平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="每个人的直播平台" href="https://www.douyu.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/douyu.jpg">  斗鱼        </a>
+        <p class="desc"> 每个人的直播平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是以游戏直播为主的弹幕式互动直播平台" href="https://www.huya.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/huyazhibo.png">  虎牙        </a>
+        <p class="desc"> 是以游戏直播为主的弹幕式互动直播平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="电商消费新生态" href="https://taolive.taobao.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/taobaozhibo.png">  淘宝直播        </a>
+        <p class="desc"> 电商消费新生态</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="电商消费新生态" href="https://live.douyin.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/douyinzhibo.png">  抖音直播        </a>
+        <p class="desc"> 电商消费新生态</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="电商消费新生态" href="https://www.kuaishou.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/kuaishouzhibo.png">  快手直播        </a>
+        <p class="desc"> 电商消费新生态</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="电商消费新生态" href="https://wqs.jd.com/live/list/index.shtml" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/jing-dong.png">  京东直播        </a>
+        <p class="desc"> 电商消费新生态</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个聚集超高颜值男女的手机直播社交平台" href="https://www.huajiao.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/huajiaozhibo.png">  花椒直播        </a>
+        <p class="desc"> 一个聚集超高颜值男女的手机直播社交平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是一款基于地理位置的移动社交工具" href="https://www.immomo.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/momozhibo.png">  陌陌直播        </a>
+        <p class="desc"> 是一款基于地理位置的移动社交工具</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="全民娱乐的互动直播平台" href="https://www.yy.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/YYzhibo.png">  YY直播        </a>
+        <p class="desc"> 全民娱乐的互动直播平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个音频分享平台，包含有声小说、相声、评书、故事、儿歌、在线听书等内容" href="https://www.ximalaya.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/ximalayaFM.png">  喜马拉雅FM        </a>
+        <p class="desc"> 一个音频分享平台，包含有声小说、相声、评书、故事、儿歌、在线听书等内容</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是专业的音频分享平台" href="https://www.lizhi.fm/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/lizhiFM.jpg">  荔枝FM        </a>
+        <p class="desc"> 是专业的音频分享平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="有声小说、有声读物、电台广播、在线听书" href="https://www.qingting.fm/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/qingtingFM.jpg">  蜻蜓FM        </a>
+        <p class="desc"> 有声小说、有声读物、电台广播、在线听书</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title=" 收听独家全集有声小说在线播客" href="https://fm.qq.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/qier-FM.jpg">  企鹅FM        </a>
+        <p class="desc">  收听独家全集有声小说在线播客</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="海量中文咨询平台" href="https://news.baidu.com/?cip=27.154.168.109&#038;logid=0898519196" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/baiduxinwen.png">  百度新闻        </a>
+        <p class="desc"> 海量中文咨询平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="易信企业服务平台" href="https://plus.yixin.im/login" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/yixingongzhongpingtai.jpg">  易信公众平台        </a>
+        <p class="desc"> 易信企业服务平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="网易云阅读作者中心" href="https://open.yuedu.163.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/wangyiyunyuedu.png">  网易云阅读        </a>
+        <p class="desc"> 网易云阅读作者中心</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="凤凰网旗下自媒体产品，追求原创和高质量内容" href="https://mp.ifeng.com/login" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/dafenghao.png">  大风号        </a>
+        <p class="desc"> 凤凰网旗下自媒体产品，追求原创和高质量内容</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="品途商业评论-媒体激发产业创新" href="https://www.pintu360.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/pintuwang.png">  品途网        </a>
+        <p class="desc"> 品途商业评论-媒体激发产业创新</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="是专业服务于站长和网站的信息平台" href="https://www.admin5.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/a5_logo.png">  A5站长网        </a>
+        <p class="desc"> 是专业服务于站长和网站的信息平台</p>
+      </li>
+            <li class="lia" >
+          <a  style="padding: 7px 0 0 0;" data-toggle="tooltip" data-placement="bottom" rel="nofollow" title="一个社交网络平台" href="https://qzone.qq.com/" target="_blank" class="runoob-custom-link"> 
+          <img width="24" height="24" src="https://www.jyshare.com/wp-content/uploads/2022/05/QQkongjian.png">  QQ空间        </a>
+        <p class="desc"> 一个社交网络平台</p>
+      </li>
+       
+    </ul>
+  
+    </div>
+  </div>
+  </div>
+
+</div>
+<script>
+var data_hrefs = ["70","175","72","38","174","73"];
+</script>
+
+
+<!-- Footer -->
+<footer class="page-footer mt-4 pt-4"> 
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Copyright &copy; 
+    <a href="https://www.jyshare.com/"> JYSHARE.COM</a> 2025 备案号：<a target="_blank" rel="nofollow" href="https://beian.miit.gov.cn/">闽ICP备12019840号-4</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+
+
+
+
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/4.6.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script>
+
+
+$(function() {
+  // 当点击搜索图标时
+  $(".search-icon").click(function() {
+    $(this).parent().siblings().toggle();
+  });
+
+  // 监听搜索框的输入事件
+  $('.search-input').on('input', function() {
+      const query = $(this).val().toLowerCase();
+      $(this).parent().parent().parent().siblings().find('a').each(function() {
+          const linkText = $(this).text().toLowerCase();
+          if (linkText.includes(query)) {
+              $(this).parent().show();
+          } else {
+            $(this).parent().hide();
+          }
+      });
+  });
+	//代码高亮
+	$('pre').each(function() {
+		if(!$(this).hasClass("prettyprint")) {
+			$(this).addClass("prettyprint");
+		}
+	});
+  if ($('[data-toggle="tooltip"]').length > 0) {
+    $('[data-toggle="tooltip"]').tooltip();
+  }
+
+  if(is_home || $('#goto').length > 0) {
+    $(window).scroll(function () {
+      var _stop = $(window).scrollTop();
+      if(_stop>=100) {
+        $("#go-top").fadeIn();
+        
+      }else {
+        $("#go-top").fadeOut();
+      }
+    });
+    _current_hash = window.location.hash;
+   // console.log(_current_hash);
+    if(_current_hash) {
+     
+        var $targetEle = $(_current_hash);
+        var sTop =  $targetEle.offset().top;
+        $('html, body').stop().animate({
+            'scrollTop':sTop-100
+        }, 300, 'swing', function (e) {
+         // window.location.hash = targetEle;
+        }); 
+        console.log(sTop);
+        return false;
+     
+    }
+    $("#go-top").click(function(event){	
+     $('html,body').animate({scrollTop:0}, 100);
+     return false;
+    });
+    // 导航
+    var _html_nav='<a class="nav-link active" href="javascript:void();"><i class="fa fa-compass" aria-hidden="true"></i> 快速导航</a>';
+    var _html_right_nav = '<button class="dropdown-item" href="#"><i class="fa fa-th-list" aria-hidden="true"></i> 快速导航</button><div class="dropdown-divider"></div>';
+    var _html_left_nav = '<dt><span class="show-list"></span></dt>';
+    for (var i=0;i<data_hrefs.length;i++)
+    { 
+        id="runoob-goto-" + data_hrefs[i];
+        _html_nav += '<a class="nav-link" href="#'+id+'">'+$("#"+id).data("text")+'</a>';
+        _html_right_nav +='<button class="dropdown-item" onclick="location.href=\'#'+id+'\'" type="button"><i class="fa fa-caret-right" aria-hidden="true"></i> '+$("#"+id).data("text")+'</button>' ;
+        _html_left_nav +='<dd><a href="#'+id+'" class="auto-scroll" data-offset="98" data-speed="500">'+$("#"+id).data("text")+'</a></dd>';
+    }
+    $(".nav-underline").html(_html_nav);
+    $("#right_nav_list").html(_html_right_nav);
+    $("#goto").html(_html_left_nav);
+    if($(".nav-scroller").is(":visible")){
+      $('a[href^="#"]').on('click', function (e) {
+       
+          e.preventDefault();
+          $(this).addClass('nav-underline-active');
+          $(this).siblings().removeClass('nav-underline-active');
+          var targetEle = this.hash;
+          var $targetEle = $(targetEle);
+          var sTop =  $targetEle.offset().top;
+          $('html, body').stop().animate({
+              'scrollTop':sTop-100
+          }, 300, 'swing', function () {
+          //   window.location.hash = targetEle;
+          });
+      });
+    } else {
+      $('a[href^="#"]').on('click', function (e) {
+          e.preventDefault();
+          
+          var targetEle = this.hash;
+          var $targetEle = $(targetEle);
+          var sTop =  $targetEle.offset().top;
+          //console.log(sTop);
+          $('html, body').stop().animate({
+              'scrollTop':sTop-98   
+          }, 300, 'swing', function () {
+          //   window.location.hash = targetEle;
+          });
+      });
+    }
+  } else { 
+    $("#top").hide();
+  }
+  
+
+  // search
+  if($('#search-name').length){
+      var _href=  $("#search-name .nav-underline-active").attr("href");
+  }
+ 
+  $('#search-name li a').each(function(){
+    $(this).on("click", function(e){
+      e.preventDefault();
+      _href = $(this).attr('href');
+      $(this).removeClass("text-muted").addClass("nav-underline-active");
+      $(this).parent().siblings().find("a").addClass("text-muted").removeClass("nav-underline-active");
+    //  console.log(_href);
+    });
+    
+  })
+
+  $('#search-button').on("click", function(e){
+   // console.log(_href);
+    _hmt.push(['_trackEvent', 'Search', 'Click', '搜索工具']);
+    keyword = $(".search").find("input:text").val();
+    window.open(_href + keyword, '_blank');
+  });
+  $(".search").find("input:text").keypress(function (e) {
+    var key = e.which;
+    if(key == 13)  // the enter key code
+    {
+      window.open(_href + $(this).val(), '_blank'); 
+      return false;  
+    }
+  });  
+});
+
+(function($){ 
+  var p=$('.runoob-item-index'); 
+  if(p.length<1) return;
+  var arr=[];
+  function part_offset_top() {
+    p.each(function () {
+      var of=$(this).offset();
+      arr.push(Math.floor(of.top));
+    });
+  }
+  function goto_current(index) {
+    var a=$('#goto dd');
+    var b=$('#goto dt');
+    if(a.length<1) return;
+    var h=a.outerHeight();
+    if (!a.eq(index).hasClass('current')) {
+      a.removeClass('current');
+      a.eq(index).addClass('current');
+     // console.log(index)
+      b.animate({
+        'top': h*index+(a.outerHeight()-b.outerHeight())/2+1
+      },50);
+    }
+  }
+  function window_scroll() {
+    var st=window.pageYOffset
+    			|| document.documentElement.scrollTop
+    			|| document.body.scrollTop
+    			|| 0;
+    var limit=Math.ceil(st+98);
+    var index=0;
+    for (var i = 0; i < arr.length; i++) {
+      if (limit>=arr[i]) {
+        index=i;
+      }else{
+        break;
+      }
+    }
+    if (index<0) index=0;
+    if (!p.eq(index).hasClass('current')) {
+      p.removeClass('current');
+      p.eq(index).addClass('current');
+      goto_current(index);
+    }
+  }
+  part_offset_top();
+  setTimeout(window_scroll,0);
+  $(window).on('scroll',window_scroll);
+})(jQuery);
+/* --侧边栏滚动时固定-- */
+(function($){
+  var s=$('.sidebar');
+  
+  if(s.length<1) return;
+  var c=s.children('.content-sidebar');
+  if(c.length<1) return;
+  var $parent=s.parent();
+  if($parent.length<1) return;
+  var start=0,stop=0,cHeight=0;
+  function init() {
+    var soffset=s.offset();
+    start=soffset.top;
+    stop=start+$parent.height();
+    cinit();
+  }
+  function cinit() {
+    cHeight=c.height();
+  }
+  function cClear(){
+    c.removeClass('fixed');
+    c.removeClass('absolute');
+  }
+  function check_scroll(){
+    var st=window.pageYOffset
+    			|| document.documentElement.scrollTop
+    			|| document.body.scrollTop
+    			|| 0;
+    if (st<=start) {
+      cClear();
+    }
+    if (st>=stop-cHeight) {
+      c.removeClass('fixed');
+      c.addClass('absolute');
+      return;
+    }
+    if (st<stop-cHeight && st>start) {
+      c.removeClass('absolute');
+      c.addClass('fixed');
+    }
+  }
+  
+  init();
+  check_scroll();
+  $(window).on('resize',init);
+  $(window).on('scroll',check_scroll);
+})(jQuery);
+
+(function () {
+  'use strict'
+
+  document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+    document.querySelector('.offcanvas-collapse').classList.toggle('open')
+  })
+})()
+</script>
+<div style="display:none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6d663ac80d8b95a60e359ffed9f3d0d0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2BKSTK8N4K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2BKSTK8N4K');
+</script>
+</div>
+
+
+<div class="modal fade" id="tg-1" tabindex="-1" role="dialog" aria-labelledby="tg-1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold text-danger"><i class="fas fa-comments-dollar"></i> textxx</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span> 
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="text-center">
+      xxx
+      </div>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
