@@ -10,8 +10,8 @@ icon: globe-pointer
 
 
 
-{% hint style="info" %}
-若网
+{% hint style="warning" %}
+若网站内无您所需的内容，请寻找站长，毕竟他是这里的万事通。
 {% endhint %}
 
 
