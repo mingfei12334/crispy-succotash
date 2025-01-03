@@ -1,6 +1,6 @@
 ---
 icon: globe-pointer
-description: Using love to generate electricity is purely sick
+description: Do not go gentle into that good night.
 cover: >-
   https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxnYW1lfGVufDB8fHx8MTczNTg5MzQ1Mnww&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -20,7 +20,7 @@ layout:
     visible: true
 ---
 
-# 🤒 游戏下载
+# 🤖 游戏下载
 
 * 有夸克盘+迅雷盘+UC盘，夸克资源容易被和谐，若主链接或者某个游戏资源失效了，可看夸克备份/迅雷/UC
 * 通用解压码:[114514、xwzzx、10127、qingjiu卿久，xc8game、10086、0606、123、XDBJ、0721、qyu123.com ,京墨,LOVE521、xxld 、xdbj、BiuBiuBiu、btys、zukol123、666666、风花雪月、zhuo](#user-content-fn-1)[^1]yugam
