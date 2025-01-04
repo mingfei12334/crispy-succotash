@@ -30,16 +30,10 @@ layout:
 更新自2025/1/3
 {% endembed %}
 
-{% embed url="https://pan.quark.cn/s/319ba42bde78#/list/share" fullWidth="false" %}
-更新自2025/1/2
-{% endembed %}
+{% embed url="https://pan.quark.cn/s/bc1c1e89a155#/list/share" fullWidth="false" %}
 
 {% hint style="danger" %}
 若网站内无您所需的内容，请寻找站长，毕竟他是这里的万事通。
 {% endhint %}
-
-
-
-
 
 [^1]: 
